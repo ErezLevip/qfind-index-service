@@ -1,0 +1,9 @@
+{
+    "WatchedDirectories":[
+        "/home/mechanic"
+    ],
+    "ExcludeDirectories":[
+        "/home/mechanic/.config/",
+        "/home/mechanic/.local/"
+    ]
+}

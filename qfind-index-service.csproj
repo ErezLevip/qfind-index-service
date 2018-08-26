@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+<ItemGroup>
+  <None Include="config.json" CopyToOutputDirectory="PreserveNewest"/>
+  <None Include="dbconfig.json" CopyToOutputDirectory="PreserveNewest"/>
+</ItemGroup>
+<ItemGroup>
+  <ProjectReference Include="../qfind/qfind.csproj"/>
+  <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.2.5" />
+  <PackageReference Include="Microsoft.Data.Sqlite" Version="2.1.0" />
+  <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
+  <PackageReference Include="newtonsoft.json" Version="11.0.2" />
+</ItemGroup>
+</Project>
